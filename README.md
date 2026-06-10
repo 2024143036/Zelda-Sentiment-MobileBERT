@@ -183,13 +183,12 @@
 최신 Hugging Face 규격에 맞춰 단어 사전(`vocab.txt`)은 독립 텍스트 형태가 아닌, 토크나이저 직렬화 데이터와 통합된 **`tokenizer.json`** 내부에 무결하게 임베딩 인코딩되어 저장됨을 검증 완료하였습니다.
 
 ---
+
 ## 🎨 14. 데이터 시각화 및 대조 분석 (Data Visualization)
 
-### 📊 3D 젤다 플래그십 연대기 감성 트렌드 대조 분석 차트
-![젤다 감성 분포 대조 그래프](zelda_title_comparison.png)
-
-### 🎯 MobileBERT 신경망 예측 모델 검증 히트맵 (Confusion Matrix)
-![MobileBERT 혼동 행렬 히트맵](zelda_confusion_matrix.png)
+| 📊 3D 젤다 플래그십 연대기 감성 트렌드 대조 분석 차트 | 🎯 MobileBERT 신경망 예측 모델 검증 히트맵 (Confusion Matrix) |
+| :---: | :---: |
+| <img src="zelda_title_comparison.png" width="450" alt="젤다 감성 분포 대조 그래프"> | <img src="zelda_confusion_matrix.png" width="450" alt="MobileBERT 혼동 행렬 히트맵"> |
 
 학습과 동시에 메모리 스트리밍 상태에서 44,365건의 타이틀 독립 집단을 분리하고 감성 카테고리별 데이터 분포의 시각화 결과물인 `zelda_title_comparison.png` 차트를 300 DPI 고해상도로 빌드 완료하였습니다.
 
